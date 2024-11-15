@@ -1,0 +1,36 @@
+# Dependencias de Node.js
+/node_modules/
+
+# Archivos de log
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de compilación
+/dist
+/build
+
+# Archivos de bases de datos locales
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# Archivos de dependencias específicas del sistema operativo
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Archivos de dependencias de Visual Studio Code
+.vscode/
+
+# Archivos de dependencias de JetBrains
+.idea/
+
+# Archivos de dependencias de otros IDEs
+*.sublime-workspace
+*.sublime-project
